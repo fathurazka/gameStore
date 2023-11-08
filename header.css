@@ -1,0 +1,63 @@
+.ps5-header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(41,41,180);
+    background: linear-gradient(90deg, rgba(41,41,180,1) 50%, rgba(2,0,36,1) 94%);  
+    border-bottom: 2px solid black;
+    vertical-align: top;
+}
+
+.xbox-header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(41,180,50);
+    background: linear-gradient(90deg, rgba(41,180,50,1) 0%, rgba(2,0,36,1) 100%);  
+    border-bottom: 2px solid black;
+    vertical-align: top;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.header-icon {
+    height: 40px;
+    cursor: pointer;
+}
+
+.web-name {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.ps5-logo {
+    margin-left: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.xbox-logo {
+    margin-left: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.middle-section {
+    flex: 10px;
+}
+
+.right-section {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.profile-icon {
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
